@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/cadatro.css" />
+    <title>Cadastre-se</title>
+  </head>
+  <body>
+    
+    <!--FORMULÁRIO DE CADASTRO-->
+    <div id="cadastro">
+      <form class="cadastro_form" method="post" action="">
+        <h1>Cadastro</h1>
+    <fieldset id="nome_"><legend>Cadastro do Usuário</legend>
+        <p>
+          <label for="nome_cad"><strong>Nome</strong></label>
+          <input
+            id="nome_cad"
+            name="nome_cad"
+            required="required"
+            type="text"
+            placeholder="Everton França"/>
+        </p>
+
+        <p>
+          <label for="cpf_cad"><strong>CPF</strong></label>
+          <input
+            id="cpf_cad"
+            name="cpf_cad"
+            required="required"
+            type="number"
+            maxlength="11"
+            placeholder="xxx-xxx-xxx-xx"/>
+        </p>
+
+        <p>
+          <label for="cargo_cad"><strong>Cargo</strong></label>
+          <input
+            id="cargo_cad"
+            name="cargo_cad"
+            required="required"
+            type="text"
+            maxlength="30"
+            placeholder="Desenvolvedor"/>
+        </p>
+
+        <p>
+          <label for="filiacao_cad"><strong>Filiação</strong></label>
+          <input
+            id="filiacao_cad"
+            name="filiacao_cad"
+            required="required"
+            type="text"
+            maxlength="50"
+            placeholder="Nome do pai ou mãe"/>
+        </p>
+
+        <p>
+          <label for="endereco_cad"><strong>Endereço</strong></label>
+          <input
+            id="endereco_cad"
+            name="endereco_cad"
+            required="required"
+            type="text"
+            maxlength="100"
+            placeholder="Rua 01"/>
+        </p>
+
+        <p>
+          <label for="bairro_cad"><strong>Bairro</strong></label>
+          <input
+            id="bairro_cad"
+            name="bairro_cad"
+            required="bairro"
+            type="text"
+            maxlength="100"
+            placeholder="Espinheiro"/>
+        </p>
+
+        <li>
+          <label><strong>Cidade</strong></label>
+          <select required>
+              <option disabled>Recife</option>
+              <option disabled>Rio de Janeiro</option>
+              <option disabled>São Paulo</option>
+          </select>
+      </li>
+
+        <p>
+          <label for="email_cad"><strong>E-mail</strong></label>
+          <input
+            id="email_cad"
+            name="email_cad"
+            required="required"
+            type="email"
+            placeholder="seuemail@email.com"
+          />
+        </p>
+
+        <p>
+          <label for="senha_cad"><strong>Senha</strong></label>
+          <input
+            id="senha_cad"
+            name="senha_cad"
+            required="required"
+            type="password"
+            placeholder="***********"
+          />
+        </p>
+
+        <p>
+          <input class="submit" type="submit" value="Cadastrar" />
+        </p>
+
+        <p class="link">
+          Já tem conta?
+          <a href="./index.html"> Ir para Login </a>
+        </p>
+      </form>
+    </fieldset>
+    </div>
+
+
+  </body>
+</html>
