@@ -1,0 +1,128 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Cadastre-se</title>
+      <link rel="stylesheet" href="./css/cadatro.css" />
+      <script src="./script.js" defer></script>
+    </head>
+    <body>
+      
+      <!--FORMULÁRIO DE CADASTRO-->
+
+      <form class="cadastro_form" method="post" action="" id="form" name="form">
+          <h1>Cadastro</h1>
+        <!-- <fieldset id="nome_"><legend>Cadastro do Usuário</legend> -->
+          <p>
+            <label for="nome"><strong>Nome</strong></label>
+            <input 
+              id="nome"
+              name="nome"
+              required="required"
+              type="text"
+              placeholder="Everton França"/>
+          </p>
+
+          <p>
+            <label for="cpf"><strong>CPF</strong></label>
+            <input
+              id="cpf"
+              name="cpf"
+              required="required"
+              type="number"
+              maxlength="11"
+              placeholder="xxx-xxx-xxx-xx"/>
+          </p>
+
+          <p>
+            <label for="cargo"><strong>Cargo</strong></label>
+            <input
+              id="cargo"
+              name="cargo"
+            required="required"
+              type="text"
+              maxlength="30"
+              placeholder="Desenvolvedor"/>
+          </p>
+
+          <p>
+            <label for="filiacao"><strong>Filiação</strong></label>
+            <input
+              id="filiacao"
+              name="filiacao"
+            required="required"
+              type="text"
+              maxlength="50"
+              placeholder="Nome do pai ou mãe"/>
+          </p>
+
+          <p>
+            <label for="endereco"><strong>Endereço</strong></label>
+            <input
+              id="endereco"
+              name="endereco"
+              required="required"
+              type="text"
+              maxlength="100"
+              placeholder="Rua 01"/>
+          </p>
+
+          <p>
+            <label for="bairro"><strong>Bairro</strong></label>
+            <input
+              id="bairro"
+              name="bairro"
+              required="required"
+              type="text"
+              maxlength="100"
+              placeholder="Espinheiro"/>
+          </p>
+
+          <li>
+            <label><strong>Cidade</strong></label>
+            <select>
+                <option>Recife</option>
+                <option>Rio de Janeiro</option>
+                <option>São Paulo</option>
+            </select>
+        </li>
+
+          <p>
+            <label for="email"><strong>E-mail</strong></label>
+            <input
+              id="email"
+              name="email"
+              required="required"
+              type="email"
+              placeholder="seuemail@email.com"
+            />
+          </p>
+
+          <p>
+            <label for="senha"><strong>Senha</strong></label>
+            <input
+              id="senha"
+              name="senha"
+              required="required"
+              type="password"
+              placeholder="***********"
+            />
+          </p>
+
+          <p>
+            <input class="submit" id="submit" type="submit" value="Cadastrar" onclick="validar" />
+          </p>
+
+          <p class="link">
+            Já tem conta?
+            <a href="./index.html"> Ir para Login </a>
+          </p>
+    </form>
+        </fieldset>
+    
+
+    
+    </body>
+  </html>

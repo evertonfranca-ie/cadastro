@@ -1,0 +1,96 @@
+:root{
+  --input-linear: linear-gradient(120deg, #00dbde, #fc00ff);
+  --buttom-linear: linear-gradient(120deg,#ec38bc, #00dbde, #fc00ff);
+  --white: #fff;
+}
+
+/* CSS reset */
+*:before, *:after { 
+    margin:0;
+    padding:0;
+    font-family: Arial,sans-serif;
+  }
+
+input[type="text"],input[type="password"], [type="number"],[type="email"]
+{
+    width:250px;
+    align-items: flex-start;
+    justify-items:end;
+    text-align: center;
+}
+  
+  body{
+   
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('https://images.unsplash.com/photo-1629317422263-9317e911014a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80');
+    background-size: cover;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #066a75;
+  }
+
+  p{
+    margin: 5px;
+  }
+  
+ li{
+  list-style: none;
+ }
+
+  .cadastro_form{
+   
+    background-color: var(--white);
+    box-sizing: border-box;
+    padding: 22px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: grey;
+    
+  }
+
+  /* formatando o cabeçalho dos formulários */
+  h1{
+    font-size: 48px;
+    color: #066a75;
+    padding: 10px 0;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 0px;
+  }
+
+  .submit {
+
+    width: 200px;
+    height: 40px;
+    outline: none;
+    background: #39A275;
+    background-size: 200%;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ 
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+  
+}
+input[type=number] { 
+ -moz-appearance: textfield;
+ appearance: textfield;
+
+}
