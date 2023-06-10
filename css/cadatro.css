@@ -5,6 +5,8 @@
 
 body{
     padding: 1rem;
+    background-image: url('https://images.unsplash.com/photo-1629317422263-9317e911014a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80');
+    background-size: cover;
 }
 
 h1{
@@ -43,3 +45,20 @@ button{
     font-size: 1.1rem;
     cursor: pointer;
 }
+
+a{
+    text-decoration: none;
+    color: #066a75;
+    font-weight: bold;
+  }
+
+  p{
+    margin: 5px;
+    background-color: #ccc;
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+ li{
+  list-style: none;
+ }
